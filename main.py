@@ -14,7 +14,7 @@ def load_arousal_valence_labels(arousal_csv_path, valence_csv_path):
     
     Returns:
         dict: A dictionary where keys are song_ids (str) and values are
-              DataFrames with columns like 'timestamp_ms', 'arousal', 'valence'.
+              DataFrames with columns like 'timestamp_ms', 'arousal', 'valence
     """
     arousal_df = pd.read_csv(arousal_csv_path)
     valence_df = pd.read_csv(valence_csv_path)
